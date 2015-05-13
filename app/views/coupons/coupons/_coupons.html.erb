@@ -38,9 +38,8 @@
     </thead>
 
     <tbody>
-      <%= render coupons, paginate: true %>
+      <%= render coupons %>
     </tbody>
   </table>
 
-  <%= paginate coupons, renderer: Coupons::PaginateRenderer, size: 50 %>
 <% end %>
